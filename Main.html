@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.js"></script>
+        <link href="Main.css" rel="stylesheet" type="text/css" />
+        <script src="Main.js"></script>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        </head>
+    <body>
+  
+  <!-- Main Page -->
+
+    <div id="main" data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <a href="#MenuPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+            <!-- class="ui-btn ui-icon-bars ui-btn-icon-left" -->
+            <h1>Home</h1>
+            
+            <a href="#Search" data-rel="popup" data-icon="search" data-iconpos="notext">Search</a>
+            <!-- class="ui-btn ui-icon-search ui-btn-icon-left" -->
+        </div>
+
+        <div data-role="panel" id="MenuPanel" data-display="overlay"> 
+            <h2>MENU</h2>
+            <p>You can close the panel by clicking outside the panel, pressing the Esc key or by swiping.</p>
+        </div>
+
+        <div data-role="popup" id="Search" class="ui-content">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-left">Close</a>
+            <p>Let's search for the meaning of life!</p>
+            <input type="text" name="text-6" id="text-6" value="" placeholder="e.g. Badminton, Volleyball...">
+        </div>
+        
+        <a href="event1.html">
+            <div data-role="content" >
+                <div class="box-content">
+                    <img src="badminton.png" alt="Badminton" style="float:left;width:4em;height:4em;" >
+                    <div class="location">Abhishek's House </div>
+                    <div> Badminton Game for 2</div>
+                    <div> 12:00 pm to 2:00pm </div>
+                    <div> Skill Level: All </div>
+                    <div class="participants"> 
+                        <img src="user1.jpeg" alt="Mike" class="profile" ></img>
+                        Participants: 
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+  </body>
+</html>
