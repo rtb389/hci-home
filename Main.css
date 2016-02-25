@@ -26,23 +26,25 @@
     border-radius: 5px;
     box-shadow: 3px 3px 1px #eee;
 ​
-  height: 7em
+  height: 17vw;
+  font-size 6vw; 
 }
 ​
 img{
   float: left;
-  height: 6em;
-  width: 6em;
+  height: 15vw;
+  width: 15vw;
   padding-right: 5px;
 }
 .profile {
-    width:3em;
-    height:3em;
+    width:7vw;
+    height:7vw;
     border:2px solid #999;
 }
 ​
 .box-content div{
-  height: 1.5em;
+  font-size: 3vw;
+  height: 4vw;
 }
 a{
   text-decoration: none;
@@ -54,4 +56,5 @@ a{
 .participants img{
   float: right;
 }
+
 
